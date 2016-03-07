@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3" package="org.tizen.rearcameraapp" version="1.0.0">
+    <profile name="mobile"/>
+    <ui-application appid="org.tizen.rearcameraapp" exec="rearcameraapp" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>rearcameraapp</label>
+        <icon>rearcameraapp.png</icon>
+    </ui-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/location</privilege>
+        <privilege>http://tizen.org/privilege/mediastorage</privilege>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+        <privilege>http://tizen.org/privilege/camera</privilege>
+        <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
+    </privileges>
+    <feature name="http://tizen.org/feature/location">true</feature>
+    <feature name="http://tizen.org/feature/sensor.magnetometer.wakeup">true</feature>
+    <feature name="http://tizen.org/feature/sensor.magnetometer">true</feature>
+    <feature name="http://tizen.org/feature/camera">true</feature>
+    <feature name="http://tizen.org/feature/location.gps">true</feature>
+    <feature name="http://tizen.org/feature/screen.size.all">true</feature>
+    <feature name="http://tizen.org/feature/location.wps">true</feature>
+    <feature name="http://tizen.org/feature/camera.back">true</feature>
+</manifest>
